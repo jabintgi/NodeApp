@@ -23,7 +23,7 @@ This will install all the node dependencies need for this project.
 | /api/data/insert | GET    |              |                        | Insert some sample data to 'Users' table  |
 | /admin           | GET    |{"userId":10} | admin                  | Opens admin panel                         |
 | /manage          | GET    |{"userId":10} | admin,manager          | Opens manager dashboard                   |
-| /api/auth/login  | POST   |{<br/>"username":"admin",<br/>"password":"123456"}| | Logins the user                        |
+| /api/auth/login  | POST   |{<br/>"username":"admin",<br/>"password":"123456"<br/>}| | Logins the user                        |
 | /api/user        | GET    |{"userId":10} |           | Get all users data |
 | /api/user        | POST   |{<br/>"name":"John",<br/>username":"admin",<br/>"password":"123456",<br/>"role":"user"<br/>} |           | Insert new user |
 | /api/user        | PUT    |{<br/>"userId":4,<br/>"name":"John",<br/>username":"admin",<br/>"password":"123456",<br/>"role":"user"<br/>} |  | Update user data |
